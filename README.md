@@ -28,7 +28,7 @@ Looti can be runned with few arguments which must be specified  into `string[] a
 
 ## Configuration file
 
-Looti automaticly creating `Looti.scf` with editor configuration. If configuration in `looti.scf` conflict with information in a variable
+Looti automatically creating `Looti.scf` with editor configuration. If configuration in `looti.scf` conflict with information in a variable
 `string[] argv`, the information in argv is finally used. <br>
 
 ### Configuration:
