@@ -3,14 +3,15 @@ Looti file Editor - Version official 1.0
 <br><br>
 Syntax:
 ```
-Looti.Looti.Run(string PATH, string[] argv);
+Looti.Run(string[] argv);
 ```
 <br>
 Directly to Looti:
 
 ```
-Looti.Looti.Editor(string PATH, string[] argv);
+Looti.Editor(string[] argv);
 ```
+Where argv[0] must be valid path to file.
 <br>
 <br>
 
@@ -21,8 +22,6 @@ Looti can be runned with few arguments which must be specified  into `string[] a
 ### Arguments:
 
 `--help` - help<br>
-`--mono` - monochromatic mode<br>
-`--color` - color mode<br>
 `--lock` - only to read mode<br>
 `--ide` - Run Looti in IDE mode<br>
 
@@ -33,7 +32,6 @@ Looti automatically creating `Looti.scf` with editor configuration. If configura
 
 ### Configuration:
 
-`colors=yes/no` - use colors<br>
 `beep=yes/no` - beep on start<br>
 `hello=yes/no` - show splash screen<br>
 `click=yes/no` - make sound on click<br>
